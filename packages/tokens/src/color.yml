@@ -1,0 +1,26 @@
+---
+global:
+  type: colors
+  category: all
+
+props:
+  - name: color-brand-primary
+    value: '#00a5ed'
+
+  - name: color-app-background
+    value: '#fff'
+
+  - name: color-shape-background
+    value: '#efefef'
+
+#  - name: color-app-background
+#    value: '#222'
+
+  - name: color-app-text
+    value: 'rgba(255, 255, 255, 0.9)'
+
+  - name: color-shape-border
+    value: 'rgba(80, 80, 80, 0.1)'
+
+#  - name: color-shape-background
+#    value: 'rgba(255, 255, 255, 0.1)'

@@ -1,0 +1,13 @@
+
+:root {
+  --color-brand-primary: #00a5ed;
+  --color-app-background: #fff;
+  --color-shape-background: #efefef;
+  --color-app-text: rgba(255, 255, 255, 0.9);
+  --color-shape-border: rgba(80, 80, 80, 0.1);
+  --border-radius-none: 0;
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 16px;
+  --border-radius-pill: 200px;
+}

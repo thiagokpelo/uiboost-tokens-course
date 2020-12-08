@@ -1,0 +1,21 @@
+{
+  "name": "@uiboost-tokens-course/tokens",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Thiago Capelo <thiagokpelo@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/tokens.common.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "theo ./src/tokens.yml --format custom-properties.css,common.js --dest ./dist"
+  },
+  "devDependencies": {
+    "theo": "8.0.0-beta.2"
+  }
+}
