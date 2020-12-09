@@ -8,6 +8,14 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "auth:build": "yarn workspace @uiboost-tokens-course/auth build",
+    "movies:build": "yarn workspace @uiboost-tokens-course/movies build",
+    "blog:build": "yarn workspace @uiboost-tokens-course/blog build",
+    "tokens:build": "yarn workspace @uiboost-tokens-course/tokens build",
+    "posttokens:build": "yarn bootstrap"
+  },
   "devDependencies": {
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
