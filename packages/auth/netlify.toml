@@ -7,5 +7,5 @@
   publish = "packages/auth/.next"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
 #
-#  [[ plugins ]]
-#  package = "@netlify/plugin-nextjs"
+  [[ plugins ]]
+  package = "@netlify/plugin-nextjs"
