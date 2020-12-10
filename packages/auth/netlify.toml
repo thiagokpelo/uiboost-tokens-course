@@ -1,9 +1,9 @@
 # Settings in the [build] context are global and are applied to all contexts
 # unless otherwise overridden by more specific contexts.
   [build]
-  install = "yarn; yarn bootstrap"
-  command = "yarn auth:build"
+  base = "/"
+  command = "yarn auth:start"
+  publish = "packages/auth"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
-
-  [[ plugins ]]
-  package = "@netlify/plugin-nextjs"
+#  [[ plugins ]]
+#  package = "@netlify/plugin-nextjs"

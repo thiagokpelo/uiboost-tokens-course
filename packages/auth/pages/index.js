@@ -4,6 +4,8 @@ import { useFetchUser } from '../lib/user'
 function Home() {
   const { user, loading } = useFetchUser()
 
+    console.log(user)
+
   return (
     <Layout user={user} loading={loading}>
       <h1>Next.js and Auth0 Example</h1>

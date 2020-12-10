@@ -11,12 +11,14 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "auth:build": "yarn workspace @uiboost-tokens-course/auth build",
+    "auth:start": "yarn workspace @uiboost-tokens-course/auth start",
     "movies:build": "yarn workspace @uiboost-tokens-course/movies build",
     "blog:build": "yarn workspace @uiboost-tokens-course/blog build",
     "tokens:build": "yarn workspace @uiboost-tokens-course/tokens build",
     "posttokens:build": "yarn bootstrap"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^1.0.2",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
