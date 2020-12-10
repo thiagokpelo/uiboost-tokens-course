@@ -4,6 +4,8 @@ import { useFetchUser } from '../lib/user'
 function About() {
   const { user, loading } = useFetchUser()
 
+    console.log(user)
+
   return (
     <Layout user={user} loading={loading}>
       <h1>About</h1>

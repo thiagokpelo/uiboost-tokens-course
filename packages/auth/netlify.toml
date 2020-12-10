@@ -3,7 +3,8 @@
   [build]
   base = "/"
   command = "yarn auth:start"
-  publish = "packages/auth"
+  functions = "out_functions"
+  publish   = "out_publish"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
 #  [[ plugins ]]
 #  package = "@netlify/plugin-nextjs"
