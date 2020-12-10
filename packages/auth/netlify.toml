@@ -5,5 +5,5 @@
   command = "yarn auth:start"
   publish = "packages/auth"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
-  [[ plugins ]]
-  package = "@netlify/plugin-nextjs"
+#  [[ plugins ]]
+#  package = "@netlify/plugin-nextjs"
