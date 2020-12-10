@@ -4,7 +4,7 @@
   base = "./"
   install = "yarn; yarn bootstrap"
   command = "yarn auth:build"
-  publish = "packages/auth/.next"
+  publish = "packages/auth"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
 #
   [[ plugins ]]
