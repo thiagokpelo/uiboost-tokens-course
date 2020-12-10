@@ -1,10 +1,10 @@
 # Settings in the [build] context are global and are applied to all contexts
 # unless otherwise overridden by more specific contexts.
   [build]
-  base = "./"
+  base = "packages/auth"
   install = "yarn; yarn bootstrap"
   command = "yarn auth:build"
-  publish = "packages/auth/.next"
+  publish = "/ackages/auth/.next"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
 #
   [[ plugins ]]
