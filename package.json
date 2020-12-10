@@ -11,6 +11,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "auth:build": "yarn workspace @uiboost-tokens-course/auth build",
+    "auth:start": "yarn workspace @uiboost-tokens-course/auth start",
     "movies:build": "yarn workspace @uiboost-tokens-course/movies build",
     "blog:build": "yarn workspace @uiboost-tokens-course/blog build",
     "tokens:build": "yarn workspace @uiboost-tokens-course/tokens build",

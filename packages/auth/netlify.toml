@@ -2,8 +2,7 @@
 # unless otherwise overridden by more specific contexts.
   [build]
   base = "./"
-  install = "yarn; yarn bootstrap"
-  command = "yarn auth:build"
+  command = "yarn auth:start"
   publish = "packages/auth"
 #  ignore = "git diff --quiet HEAD^ HEAD packages/*"
   [[ plugins ]]
